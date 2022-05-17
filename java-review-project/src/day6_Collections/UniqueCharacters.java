@@ -27,6 +27,7 @@ public class UniqueCharacters {
             int count = Collections.frequency(list, each);
 
             if(count == 1) unique += each;
+            System.out.println("HI");//testing git
         }
 
         return unique;
